@@ -1,0 +1,31 @@
+{
+    "folders": [
+    {
+        "path": "./Server"
+    },
+    {
+        "path": "./Frontend"
+    }
+    ],
+    "settings": {
+        "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "name": "server",
+                    "commands": ["screen -d -r backend"]
+                },
+                {
+                    "name": "client",
+                    "commands": ["screen -d -r frontend"]
+                },
+            ]
+        }
+        ]
+    },
+    "extensions": {
+        "recommendations": [
+            "ethansk.restore-terminals"
+        ]
+    }
+}
