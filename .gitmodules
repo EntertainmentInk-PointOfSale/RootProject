@@ -1,6 +1,8 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/EntertainmentInk-PointOfSale/Frontend.git
+	branch = master
 [submodule "Server"]
 	path = Server
 	url = https://github.com/EntertainmentInk-PointOfSale/Server.git
+	branch = master
